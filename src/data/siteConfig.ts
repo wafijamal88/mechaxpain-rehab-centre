@@ -56,7 +56,7 @@ export const siteConfig: SiteConfig = {
   slogan: "Pusat Fisioterapi & Pemulihan Kekuatan Fizikal Berasaskan Biomekanik",
   description:
     "Pusat fisioterapi & pemulihan kekuatan fizikal moden. Rawatan khusus untuk sakit pinggang, slip disc, sakit lutut, leher, bahu beku, dan kecederaan sukan berasaskan teknik Functional Patterns & rehabilitasi intensif.",
-  url: "https://mechaxpain.vercel.app",
+  url: "https://mechaxpainrehabcentre.my",
   phone: "+60149245406",
   phoneDisplay: "014-924 5406",
   whatsapp: "60149245406",
