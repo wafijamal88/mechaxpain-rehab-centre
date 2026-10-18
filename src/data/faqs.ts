@@ -57,9 +57,9 @@ export const faqsData: FAQItem[] = [
   },
   {
     id: "faq-8",
-    question: "Adakah terdapat tempat letak kereta dan kemudahan mesra kerusi roda?",
+    question: "Adakah terdapat tempat letak kereta di premis?",
     answer:
-      "Ya, premis kami dilengkapi kawasan letak kereta yang luas di hadapan pintu masuk dan mempunyai laluan landai (ramp) serta lif yang mesra kerusi roda bagi memudahkan pesakit warga emas atau mereka yang mengalami kesukaran berjalan.",
+      "Ya, premis kami mempunyai petak letak kereta yang luas dan mudah diakses betul-betul di hadapan premis (Tingkat 1) bagi memudahkan kehadiran dan urusan anda.",
     category: "Umum",
   },
 ];

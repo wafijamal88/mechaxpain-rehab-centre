@@ -25,8 +25,8 @@ export default function FacilitySection() {
       desc: "Kawasan senaman gait dan larian yang selamat untuk sendi lutut dan buku lali.",
     },
     {
-      title: "Akses Mesra Kerusi Roda & Warga Emas",
-      desc: "Kemudahan lif, laluan landai serta tempat letak kereta tepat di hadapan pintu masuk.",
+      title: "Ruang Terapi Selesa & Berhawa Dingin",
+      desc: "Persekitaran rehabilitasi yang bersih, berhawa dingin sepenuhnya dan parkir mudah di hadapan premis.",
     },
   ];
 

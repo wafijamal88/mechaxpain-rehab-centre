@@ -159,7 +159,7 @@ export default function ShippingPolicyPage() {
               Pelanggan di kawasan Kota Bharu dan sekitar Kelantan boleh memilih untuk mengambil produk secara terus di kaunter mechaXPAIN tanpa sebarang caj penghantaran.
             </p>
             <p className="text-xs text-slate-500">
-              Waktu pengambilan: <strong>Isnin – Jumaat (9.00 AM – 7.00 PM)</strong> dan <strong>Sabtu (9.00 AM – 5.00 PM)</strong> di Tingkat 1, Bandar Baru Tunjung.
+              Waktu pengambilan: <strong>Ahad – Khamis (9:00 AM – 5:00 PM)</strong> dan <strong>Sabtu (10:00 AM – 5:00 PM)</strong> (Jumaat: Cuti) di Tingkat 1, Bandar Baru Tunjung.
             </p>
           </section>
 

@@ -8,7 +8,6 @@ import {
   Clock, 
   Navigation, 
   Car, 
-  Accessibility,
   Mail,
   Sparkles,
   CheckCircle2
@@ -75,10 +74,6 @@ export default function ContactSection() {
                 <div className="flex items-start gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />
                   <span>Petak letak kereta luas betul-betul di hadapan tangga premis</span>
-                </div>
-                <div className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />
-                  <span>Kemudahan lif dan laluan mesra kerusi roda untuk pesakit</span>
                 </div>
                 <div className="flex items-start gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />
@@ -167,18 +162,18 @@ export default function ContactSection() {
                   </h3>
                   <div className="space-y-2 text-sm text-slate-700">
                     <div className="flex justify-between py-1 border-b border-slate-200">
-                      <span className="font-medium">Isnin – Jumaat:</span>
-                      <span className="font-bold text-slate-900">9:00 AM – 7:00 PM</span>
-                    </div>
-                    <div className="flex justify-between py-1 border-b border-slate-200">
-                      <span className="font-medium">Sabtu:</span>
+                      <span className="font-medium">Ahad – Khamis:</span>
                       <span className="font-bold text-slate-900">9:00 AM – 5:00 PM</span>
                     </div>
                     <div className="flex justify-between py-1 border-b border-slate-200">
-                      <span className="font-medium">Ahad:</span>
-                      <span className="font-bold text-slate-900">9:00 AM – 2:00 PM (Temujanji Awal)</span>
+                      <span className="font-medium">Jumaat:</span>
+                      <span className="font-bold text-rose-600 bg-rose-50 px-2 py-0.5 rounded text-xs uppercase tracking-wide">Cuti</span>
                     </div>
-                    <div className="flex justify-between py-1 text-slate-500">
+                    <div className="flex justify-between py-1 border-b border-slate-200">
+                      <span className="font-medium">Sabtu:</span>
+                      <span className="font-bold text-slate-900">10:00 AM – 5:00 PM</span>
+                    </div>
+                    <div className="flex justify-between py-1 text-slate-500 text-xs">
                       <span>Cuti Umum Tertentu:</span>
                       <span>Sila rujuk WhatsApp</span>
                     </div>
@@ -188,19 +183,11 @@ export default function ContactSection() {
             </div>
 
             {/* Access & Parking Perks */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="p-4 rounded-xl bg-emerald-50/70 border border-emerald-100 flex items-center gap-3">
-                <Car className="w-5 h-5 text-emerald-700 flex-shrink-0" />
-                <span className="text-xs font-semibold text-emerald-900">
-                  Parkir mudah betul-betul di hadapan premis
-                </span>
-              </div>
-              <div className="p-4 rounded-xl bg-blue-50/70 border border-blue-100 flex items-center gap-3">
-                <Accessibility className="w-5 h-5 text-blue-700 flex-shrink-0" />
-                <span className="text-xs font-semibold text-blue-900">
-                  Laluan mesra kerusi roda & ada lif
-                </span>
-              </div>
+            <div className="p-4 rounded-xl bg-emerald-50/70 border border-emerald-100 flex items-center gap-3">
+              <Car className="w-5 h-5 text-emerald-700 flex-shrink-0" />
+              <span className="text-xs font-semibold text-emerald-900">
+                Kawasan parkir mudah & percuma betul-betul di hadapan premis
+              </span>
             </div>
 
           </div>

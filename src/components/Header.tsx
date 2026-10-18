@@ -54,8 +54,8 @@ export default function Header() {
         <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
           <div className="flex items-center gap-4 flex-wrap">
             <span className="flex items-center gap-1.5 text-slate-300">
-              <Clock className="w-3.5 h-3.5 text-orange-400" />
-              <span>Isnin – Sabtu: 9.00 Pagi – 7.00 Petang</span>
+              <Clock className="w-3.5 h-3.5 text-orange-400 flex-shrink-0" />
+              <span>Ahad – Khamis: 9:00 AM – 5:00 PM | Sabtu: 10:00 AM – 5:00 PM</span>
             </span>
             <span className="hidden sm:flex items-center gap-1.5 text-slate-300">
               <MapPin className="w-3.5 h-3.5 text-orange-400" />

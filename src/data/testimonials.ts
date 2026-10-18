@@ -148,7 +148,7 @@ export const videoProofsData: VideoProofItem[] = [
   {
     id: "proof-buka-saraf",
     name: "En. Rosli",
-    age: 50,
+    age: 42,
     location: "Pasir Mas",
     condition: "Mobiliti Bahu, Lutut & Leher",
     headline: "4 Masalah Sendi & Saraf Selesai Dalam 1 Sesi Terapi!",

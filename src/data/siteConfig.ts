@@ -23,9 +23,11 @@ export interface SiteConfig {
   };
   operatingHours: {
     weekdays: string;
+    friday: string;
     saturday: string;
     sunday: string;
     publicHoliday: string;
+    shortSummary: string;
   };
   coordinates: {
     lat: number;
@@ -70,10 +72,12 @@ export const siteConfig: SiteConfig = {
     full: "Tingkat 1, S65/PT434, Bandar Baru Tunjung, 16010 Kota Bharu, Kelantan",
   },
   operatingHours: {
-    weekdays: "9:00 Pagi – 7:00 Petang (Isnin – Jumaat)",
-    saturday: "9:00 Pagi – 5:00 Petang",
-    sunday: "9:00 Pagi – 2:00 Petang (Temujanji Sahaja)",
+    weekdays: "9:00 AM – 5:00 PM (Ahad – Khamis)",
+    friday: "Cuti",
+    saturday: "10:00 AM – 5:00 PM",
+    sunday: "9:00 AM – 5:00 PM",
     publicHoliday: "Ditutup (Cuti Umum Tertentu)",
+    shortSummary: "Ahad – Khamis: 9:00 AM – 5:00 PM | Sabtu: 10:00 AM – 5:00 PM | Jumaat: Cuti",
   },
   coordinates: {
     lat: 6.0658,
